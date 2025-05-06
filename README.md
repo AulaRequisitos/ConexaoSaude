@@ -9,7 +9,7 @@ https://padlet.com/neto0309/requisitos-de-software-glri12evthgxkqlf
 
 ## 1. Introdução
   
-  ***1.1.  Grupo 6***
+  ***  1.1.  Grupo 6***
 
 helder659
 rafinhagvianna
