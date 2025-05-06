@@ -5,6 +5,7 @@
 Olá! Este repositório faz parte do projeto da disciplina de Requisitos de Software da UTFPR - Campus Cornélio Procópio. 
 
 Link do Padlet:
+https://padlet.com/neto0309/requisitos-de-software-glri12evthgxkqlf
 
 ## 1. Introdução
 
