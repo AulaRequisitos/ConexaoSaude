@@ -65,8 +65,7 @@ Gestantes: Buscam informação, produtos e serviços que garantam uma gravidez t
 
 ***2.1. Requisitos Funcionais***
 
-| RS01 | estático | O sistema deve notificar um alerta para os usuários médicos em 
-caso de superlotação em postos de atendimentos da região  |
+| RS01 | estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região  |
 
 
 
