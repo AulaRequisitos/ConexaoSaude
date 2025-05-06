@@ -91,8 +91,8 @@ Conexão Saúde
 | RS03   | Estático | O software deve localizar o usuário para saber sua trajetória a um melhor destino, isso deve ocorrer após o usuário permitir a que o app acesse a sua localização |
 | RS04   | Volátil | O software deve todo mês mostrar ao usuário um evento e nesses evento enviar tasks para o usuário |
 | RS05   | Estático | O software deve priorizar certos pacientes, dependendo da sua situação de risco/saude ou seja hierarquia na fila/ criar uma fila para casos graves |
-| RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
-| RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
+| RU04   | Estático | O usuário deve informar se está sozinho ou não, se consegue chegar ao posto mais acessível ou não, para assim o software entender se requisitar ajuda de transporte para o usuário |
+| RS08   | Estático | O usuário poderá avaliar o atendimento (nota + comentário). E o software deve conectar/alocar esse comentário a comentários do posto e do médico que usuário refere-se |
 | RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
 | RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
 | RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
