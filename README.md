@@ -92,12 +92,10 @@ Conexão Saúde
 | RS04   | Volátil | O software deve todo mês mostrar ao usuário um evento e nesses evento enviar tasks para o usuário |
 | RS05   | Estático | O software deve priorizar certos pacientes, dependendo da sua situação de risco/saude ou seja hierarquia na fila/ criar uma fila para casos graves |
 | RU04   | Estático | O usuário deve informar se está sozinho ou não, se consegue chegar ao posto mais acessível ou não, para assim o software entender se requisitar ajuda de transporte para o usuário |
-| RS08   | Estático | O usuário poderá avaliar o atendimento (nota + comentário). E o software deve conectar/alocar esse comentário a comentários do posto e do médico que usuário refere-se |
-| RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
-| RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
-| RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
-
-
+| RU08   | Estático | O usuário poderá avaliar o atendimento (nota + comentário). E o software deve conectar/alocar esse comentário a comentários do posto e do médico que usuário refere-se |
+| RS09   | Estático | O software deve filtrar quais tipos de medicamentos devem ser indicados para o usuário (devido a alguma alergia, ou restrição que ele informou ) |
+| RS12   | Volátil | O Sistema deve possibilitar a busca de informações sobre postos de saúde,hospitais entre outras intituições de saúde publica: exibição de uma caixa de texto que servira de entrada do usuario para o sistema; exibe resultados com base em entradas parciais do usuario, em caixas em fileira; exibe informações simplificadas da instituição nas caixas infileiradas |
+| RU05   | Estático | O usuário deve informar/selecionar qual tipo de atendimento procura (Pediatrico; Pronto-Atendimento; Hospital geral;) |
 
 
 
