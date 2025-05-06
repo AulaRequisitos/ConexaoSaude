@@ -86,11 +86,11 @@ Conexão Saúde
 
 | Requisito | Tipo     | Descrição                                                                 |
 |:------:|:-------:|---------------------------------------------------------------------------|
-| RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
-| RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
-| RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
-| RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
-| RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
+| RS01   | Estático | O software deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
+| RS02   | Estático | O software deve salvar o cadastro dos usuários e médicos em um banco de dados |
+| RS03   | Estático | O software deve localizar o usuário para saber sua trajetória a um melhor destino, isso deve ocorrer após o usuário permitir a que o app acesse a sua localização |
+| RS04   | Volátil | O software deve todo mês mostrar ao usuário um evento e nesses evento enviar tasks para o usuário |
+| RS05   | Estático | O software deve priorizar certos pacientes, dependendo da sua situação de risco/saude ou seja hierarquia na fila/ criar uma fila para casos graves |
 | RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
 | RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
 | RS01   | Estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
