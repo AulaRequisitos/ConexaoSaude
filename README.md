@@ -65,7 +65,12 @@ Gestantes: Buscam informação, produtos e serviços que garantam uma gravidez t
 
 ***2.1. Requisitos Funcionais***
 
-*<Link, imagem, arquivo com os requisitos funcionais.>*
+| Nome       | Idade | Cidade        |
+|------------|------|--------------|
+| João       | 25   | São Paulo    |
+| Maria      | 30   | Rio de Janeiro |
+| Pedro      | 22   | Curitiba     |
+
 
 ***2.2. Requisitos Não Funcionais***
 
