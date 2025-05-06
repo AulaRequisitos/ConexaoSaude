@@ -65,11 +65,8 @@ Gestantes: Buscam informação, produtos e serviços que garantam uma gravidez t
 
 ***2.1. Requisitos Funcionais***
 
-| Nome       | Idade | Cidade        |
+| RS01       | estático | O sistema deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região  |
 |------------|------|--------------|
-| João       | 25   | São Paulo    |
-| Maria      | 30   | Rio de Janeiro |
-| Pedro      | 22   | Curitiba     |
 
 
 ***2.2. Requisitos Não Funcionais***
