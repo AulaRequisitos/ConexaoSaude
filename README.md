@@ -115,9 +115,7 @@ irregularidades com a LGPD |
 | RS02.3 | Estático | O Sistema deve garantir um processamento assincrono por meio async e await em python |
 | RS03.1 | Estático|  O Sistema deve integrar a API Fused Location Provider do Android para a geolocalização|
 | RS03.2 | Estático|  O Sistema deve utilizar o [banco de dados] para armazenar informações |
-| RS03.2 | Estático|  O Sistema deve utilizar uma [Interface Gráfica] para exibir informações |
-| RS03.2 | Estático|  O Sistema deve utilizar o [banco de dados] para armazenar informações |
-
+| RS03.3 | Estático|  O Sistema deve utilizar uma [Interface Gráfica] para exibir informações |
 
   ***2.3. Perguntas***
 
