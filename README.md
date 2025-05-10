@@ -115,6 +115,38 @@ link para o acesso completo ao mapa da persona: https://www.canva.com/design/DAG
 | RN08   | O software deve filtrar quais tipos de medicamentos devem ser indicados para o usuário (devido a alguma alergia, ou restrição que ele informou ) | Alta | RN03, RF10, RF12 |
 | RN09   | O Sistema deve possibilitar a busca de informações sobre postos de saúde,hospitais entre outras intituições de saúde publica: exibição de uma caixa de texto que servira de entrada do usuario para o sistema; exibe resultados com base em entradas parciais do usuario, em caixas em fileira; exibe informações simplificadas da instituição nas caixas infileiradas | Alta | RF11, RF07, RN02 |
 | RN10   | O usuário deve informar/selecionar qual tipo de atendimento procura (Pediatrico; Pronto-Atendimento; Hospital geral;) | Alta | RF06, RF07, RF09, RF12 |
+| Requisito | Tipo     | Descrição                                                                 |
+|:------:|:-------:|---------------------------------------------------------------------------|
+exibição e armazenamento de informações | 
+| RU04 | Estático | O Sistema deve ter uma interface simples e intuitiva para ser acessivel ao público não familizarizado com a tecnologia | 
+| RS01 | Volátil | O Sistema deve utilizar um mecanismo de auditoria para verificar logs, o banco de dados e documentações, afim criar um relatorio apontando possiveis
+irregularidades com a LGPD |
+| RS02.1 | Estático | O Sistema deve cachear consultas frequentes utilizando Redis para reduzir o tempo de acesso ao banco de dados | 
+| RS02.2 | Estático | O Banco de dados deve suportar indexação para otimizar a pesquisa de dados | 
+| RS02.3 | Volátil | O Sistema deve registrar e analisar métricas de desempenho (tempo de resposta médio, quantidade de requisições, taxa de erro) |
+| RS02.3 | Estático | O Sistema deve garantir um processamento assincrono por meio async e await em python |
+| RNF | Estático|  O Sistema deve integrar a API Fused Location Provider do Android para a geolocalização|
+| RS03.2 | Estático|  O Sistema deve utilizar o banco de dados para armazenar informações |
+| RS03.3 | Estático|  O Sistema deve utilizar uma Interface Gráfica para exibir informações |
+| RNF05 | Estático | O Sitema devem ser capazes de usar as principais funcionalidades do sistema em no máximo 3 minutos de treinamento |
+| RNF06 | Estático | O Sitema deve ser rigoroso quanto a erros em tarefas executadas |
+| RU03 | Volátil | O Sistema possuir os requisitos mínimos para poder integrar com API gratuitas e servidores para auxiliar em questões como geolocalização,
+exibição e armazenamento de informações | 
+| RU04 | Estático | O Sistema deve ter uma interface simples e intuitiva para ser acessivel ao público não familizarizado com a tecnologia | 
+| RS01 | Volátil | O Sistema deve utilizar um mecanismo de auditoria para verificar logs, o banco de dados e documentações, afim criar um relatorio apontando possiveis
+irregularidades com a LGPD |
+| RNF07 | Estático | O Sistema deve cachear consultas frequente de mais de utilizando Redis para reduzir o tempo de acesso ao banco de dados | 
+| RS02.2 | Estático | O Banco de dados deve suportar indexação para otimizar a pesquisa de dados | 
+| RS02.3 | Volátil | O Sistema deve registrar e analisar métricas de desempenho (tempo de resposta médio, quantidade de requisições, taxa de erro) |
+| RS02.3 | Estático | O Sistema deve garantir um processamento assincrono por meio async e await em python |
+| RS03.1 | Estático |  O Sistema deve integrar a API Fused Location Provider do Android para a geolocalização|
+| RNF08 | Estático |  O Sistema deve utilizar o banco de dados para armazenar informações |
+| RNF09 | Estático |  O Tamanho total do sistema não deve ser maior que 100 mBytes |
+| RNF10 | Estático | O Sistema deve suportar inicialmente pelo menos 500.000 usuarios concorrentemente |
+| RNF11 | Estático | O Sistema deve estar disponivel 90% das vezes |
+| RNF12 | Estático | O
+| RNF13| Estático|  O Sistema deve utilizar o banco de dados para armazenar informações |
+| RNF14| Estático|  O Sistema deve utilizar uma Interface Gráfica para exibir informações |
 
   ***2.3. Perguntas***
 
