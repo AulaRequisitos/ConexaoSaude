@@ -109,6 +109,7 @@ link para o acesso completo ao mapa da persona: https://www.canva.com/design/DAG
 | RU02 | Estático | O Sistema deve garantir um tempo de resposta rápido, dado o objetivo do projeto |
 | RU03 | Volátil | O Sistema deve ser compátivel e integrado com API gratuitas e sistemas governamentais(por enquanto simulação com um banco de dados e servidores) para auxiliar em questões como geolocalização,
 exibição e armazenamento de informações | 
+| RU04 | Estático | O Sistema deve ter uma interface simples e intuitiva para ser acessivel ao público não familizarizado com a tecnologia | 
 | RS01 | Volátil | O Sistema deve utilizar um mecanismo de auditoria para verificar logs, o banco de dados e documentações, afim criar um relatorio apontando possiveis
 irregularidades com a LGPD |
 | RS02.1 | Estático | O Sistema deve cachear consultas frequentes utilizando Redis para reduzir o tempo de acesso ao banco de dados | 
