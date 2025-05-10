@@ -86,7 +86,7 @@ link para o acesso completo ao mapa da persona: https://www.canva.com/design/DAG
 
   ***2.1. Requisitos Funcionais***
 
-| Requisito | Tipo     | Descrição                                                                 |
+| Identificador | Descrição    | Prioridade  | Depende de                                                                |
 |:------:|:-------:|---------------------------------------------------------------------------|
 | RS01   | Estático | O software deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região |
 | RS02   | Estático | O software deve salvar o cadastro dos usuários e médicos em um banco de dados |
