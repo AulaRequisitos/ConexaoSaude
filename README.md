@@ -103,22 +103,18 @@ link para o acesso completo ao mapa da persona: https://www.canva.com/design/DAG
 
   ***2.2. Requisitos Não Funcionais***
 
-| Requisito | Tipo     | Descrição                                                                 |
-|:------:|:-------:|---------------------------------------------------------------------------|
-| RU01 | Estático | O Sistema deve garantir a Conformidade com as regulações LGPD Brasileiras. |
-| RU02 | Estático | O Sistema deve garantir um tempo de resposta rápido, dado o objetivo do projeto |
-| RU03 | Volátil | O Sistema deve ser compátivel e integrado com API gratuitas e sistemas governamentais(por enquanto simulação com um banco de dados e servidores) para auxiliar em questões como geolocalização,
-exibição e armazenamento de informações | 
-| RU04 | Estático | O Sistema deve ter uma interface simples e intuitiva para ser acessivel ao público não familizarizado com a tecnologia | 
-| RS01 | Volátil | O Sistema deve utilizar um mecanismo de auditoria para verificar logs, o banco de dados e documentações, afim criar um relatorio apontando possiveis
-irregularidades com a LGPD |
-| RS02.1 | Estático | O Sistema deve cachear consultas frequentes utilizando Redis para reduzir o tempo de acesso ao banco de dados | 
-| RS02.2 | Estático | O Banco de dados deve suportar indexação para otimizar a pesquisa de dados | 
-| RS02.3 | Volátil | O Sistema deve registrar e analisar métricas de desempenho (tempo de resposta médio, quantidade de requisições, taxa de erro) |
-| RS02.3 | Estático | O Sistema deve garantir um processamento assincrono por meio async e await em python |
-| RS03.1 | Estático|  O Sistema deve integrar a API Fused Location Provider do Android para a geolocalização|
-| RS03.2 | Estático|  O Sistema deve utilizar o [banco de dados] para armazenar informações |
-| RS03.3 | Estático|  O Sistema deve utilizar uma [Interface Gráfica] para exibir informações |
+| Identificador | Descrição    | Prioridade  | Depende de                  |
+|:------:|:----------------------------------------------------:|:------------:|:------------------------:|
+| RN01   | O software deve garantir a segurança dos dados do usuário e médico | Alta | RF12 |
+| RN02   | O software deve permitir acesso á localização do usuário apenas com consentimento explícito | Alta | RF03, RF06, RF09 |
+| RN03   | O software deve validar dados de saúde do usuário, garantindo recomendações seguras | Alta | RF02, RF05, RF08, RF12 |
+| RN04   | O software deve oferecer interface intuitiva e acessível para os usuários | Média | RF07, RF09, RF10 |
+| RN05   | O software deve garantir que os comentários e avaliações dos usuários sejam armazenados corretamente e protegidos| Alta | RF07 |
+| RN06   | O software deve permitir que médicos visualizem feedback dos usuários sobre o atendimento | Alta | RF07, RF12 |
+| RN07   | O usuário poderá avaliar o atendimento (nota + comentário). E o software deve conectar/alocar esse comentário a comentários do posto e do médico que usuário refere-se | Alta | RN05, RN06, RF12 |
+| RN08   | O software deve filtrar quais tipos de medicamentos devem ser indicados para o usuário (devido a alguma alergia, ou restrição que ele informou ) | Alta | RN03, RF10, RF12 |
+| RN09   | O Sistema deve possibilitar a busca de informações sobre postos de saúde,hospitais entre outras intituições de saúde publica: exibição de uma caixa de texto que servira de entrada do usuario para o sistema; exibe resultados com base em entradas parciais do usuario, em caixas em fileira; exibe informações simplificadas da instituição nas caixas infileiradas | Alta | RF11, RF07, RN02 |
+| RN10   | O usuário deve informar/selecionar qual tipo de atendimento procura (Pediatrico; Pronto-Atendimento; Hospital geral;) | Alta | RF06, RF07, RF09, RF12 |
 
   ***2.3. Perguntas***
 
