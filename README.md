@@ -114,7 +114,7 @@ link para o acesso completo ao mapa da persona: https://www.canva.com/design/DAG
 | RN07   | O usuário poderá avaliar o atendimento (nota + comentário). E o software deve conectar/alocar esse comentário a comentários do posto e do médico que usuário refere-se | Alta | RN05, RN06, RF12 |
 | RN08   | O software deve filtrar quais tipos de medicamentos devem ser indicados para o usuário (devido a alguma alergia, ou restrição que ele informou ) | Alta | RN03, RF10, RF12 |
 | RN09   | O Sistema deve possibilitar a busca de informações sobre postos de saúde,hospitais entre outras intituições de saúde publica: exibição de uma caixa de texto que servira de entrada do usuario para o sistema; exibe resultados com base em entradas parciais do usuario, em caixas em fileira; exibe informações simplificadas da instituição nas caixas infileiradas | Alta | RF11, RF07, RN02 |
-| RN10 | O Sistema deve cachear consultas frequente de mais de utilizando Redis para reduzir o tempo de acesso ao banco de dados | 
+| RN10 | O Sistema deve cachear consultas frequente de mais de utilizando Redis para reduzir o tempo de acesso ao banco de dados | Alta |
 | RN11 | O Sistema deve utilizar o banco de dados para armazenar informações | Alta |
 | RN12 | O Tamanho total do sistema não deve ser maior que 100 mBytes | Alta |
 | RN13 | O Sistema deve suportar inicialmente pelo menos 500.000 usuarios concorrentemente | Alta |
