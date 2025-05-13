@@ -121,7 +121,7 @@ link para o acesso completo ao mapa da persona: https://www.canva.com/design/DAG
 | RNF12 | O Tamanho total do sistema não deve ser maior que 100 mBytes | Alta |
 | RNF13 | O Sistema deve suportar inicialmente pelo menos 500.000 usuarios concorrentemente | Alta |
 | RNF14 | O Sistema deve estar disponivel 90% das vezes | Alta |
-| RNF15 | O Sistema deve utilizar um Framework para criar a Interface Gráfica do sistema  | Alta | RNF15 |
+| RNF15 | O Sistema deve utilizar um Framework para criar a Interface Gráfica do sistema  | Alta | RNF16 |
 | RNF16 | O Sistema deve utilizar uma linguagem orientada a objetos para a base do código do sistema | Alta |
 
   ***2.3. Perguntas***
