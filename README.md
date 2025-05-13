@@ -91,14 +91,14 @@ link para o acesso completo ao mapa da persona: https://www.canva.com/design/DAG
 | RF01   | O software deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região | Alta | RF02, RF09, RF11, RNF02, RF12 |
 | RF02   |  O software deve permitir que os usuários realizem uma consulta rápida para verificar se possuem prioridade no atendimento com base em critérios pré-definidos, como idade, estado de saúde e urgência. | Alta | RNF03, RF06, RF07, RF12 |
 | RF03   | O software deve localizar o usuário para saber sua trajetória a um melhor destino, isso deve ocorrer após o usuário permitir a que o app acesse a sua localização | Alta | RNF02, RF07, RF09 |
-| RF04   | O software deve todo mês mostrar ao usuário um evento e nesses evento enviar tasks para o usuário | Alta | RF12 |
-| RF05   | O software deve priorizar certos pacientes, dependendo da sua situação de risco/saude ou seja hierarquia na fila/ criar uma fila para casos graves | Alta | RNF03, RF06, RF11, RF12 |
-| RF06   | O usuário deve informar se está sozinho ou não, se consegue chegar ao posto mais acessível ou não, para assim o software entender se requisitar ajuda de transporte para o usuário | Alta | RNF02, RF08, RF07, RF12 |
-| RF07   | O usuário poderá avaliar o atendimento (nota + comentário). E o software deve conectar/alocar esse comentário a comentários do posto e do médico que usuário refere-se | Alta | RNF05, RNF06, RF12 |
-| RF08   | O software deve filtrar quais tipos de medicamentos devem ser indicados para o usuário (devido a alguma alergia, ou restrição que ele informou ) | Alta | RNF03, RF10, RF12 |
+| RF04   | O software deve todo mês mostrar ao usuário um evento e nesses evento enviar tasks para o usuário | Médio | RF12 |
+| RF05   | O software deve priorizar certos pacientes, dependendo da sua situação de risco/saude ou seja hierarquia na fila/ criar uma fila para casos graves | Médio | RNF03, RF06, RF11, RF12 |
+| RF06   | O usuário deve informar se está sozinho ou não, se consegue chegar ao posto mais acessível ou não, para assim o software entender se requisitar ajuda de transporte para o usuário | Médio | RNF02, RF08, RF07, RF12 |
+| RF07   | O usuário poderá avaliar o atendimento (nota + comentário). E o software deve conectar/alocar esse comentário a comentários do posto e do médico que usuário refere-se | Baixo | RNF05, RNF06, RF12 |
+| RF08   | O software deve filtrar quais tipos de medicamentos devem ser indicados para o usuário (devido a alguma alergia, ou restrição que ele informou ) | Médio | RNF03, RF10, RF12 |
 | RF09   | O Sistema deve possibilitar a busca de informações sobre postos de saúde,hospitais entre outras intituições de saúde publica: exibição de uma caixa de texto que servira de entrada do usuario para o sistema; exibe resultados com base em entradas parciais do usuario, em caixas em fileira; exibe informações simplificadas da instituição nas caixas infileiradas | Alta | RF11, RF07, RNF02 |
-| RF10   | O usuário deve informar/selecionar qual tipo de atendimento procura (Pediatrico; Pronto-Atendimento; Hospital geral;) | Alta | RF06, RF07, RF09, RF12 |
-| RF11 | O Sistema deve enviar uma notificação de onde o usuário esta na fila e exibir um aviso quando o usuário for o proximo | Alta | RNF16 |
+| RF10   | O usuário deve informar/selecionar qual tipo de atendimento procura (Pediatrico; Pronto-Atendimento; Hospital geral;) | Médio | RF06, RF07, RF09, RF12 |
+| RF11 | O Sistema deve enviar uma notificação de onde o usuário esta na fila e exibir um aviso quando o usuário for o proximo | Médio | RNF16 |
 | RF12 | O Sistema deve possibilitar a busca de informações sobre postos de saúde,hospitais entre outras intituições de saúde publica e os usos de filtros de pesquisa | Alta | RNF16 |
 
 
