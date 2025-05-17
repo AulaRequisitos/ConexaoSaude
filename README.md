@@ -156,6 +156,7 @@ Estamos desenvolvendo um aplicativo para facilitar o acesso aos serviços de sa�
 - Você tem dificuldades para ler ou entender textos pequenos ou complexos? Que tipo de recursos de acessibilidade seriam importantes para você? *(Ex: modo alto contraste, aumento de fonte, leitura em voz alta, etc.)*
 - Quais dificuldades enfrenta para marcar, lembrar ou comparecer ás consultas e exames?
 - O que um aplicativo de saúde poderia fazer para ajudar no seu acompanhamento médico?
+- O que você acha desse app poder ajudar/acionar um transporte para que possa chegar até o posto?
 
 ---
 
@@ -163,6 +164,7 @@ Estamos desenvolvendo um aplicativo para facilitar o acesso aos serviços de sa�
 
 - Você acha que seria útil saber em tempo real se o posto de saúde está com superlotação? Como você gostaria de receber esse tipo de alerta?
 - Quando você for ao posto de saúde, você gostaria de poder ver informações sobre os médicos, como especialidade ou avaliações de outros pacientes? Isso ajudaria a decidir em qual posto ir?
+- Você gostaria de receber notificações sobre sua posição na fila e quando sera o proxim? isso é útil para seu planejamento?
 
 ---
 
