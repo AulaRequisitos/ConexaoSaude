@@ -200,12 +200,6 @@ Estamos desenvolvendo um aplicativo para facilitar o acesso aos serviços de sa�
 
 ---
 
-### 💰 Custo e Valor Percebido
-
-- Você pagaria por um aplicativo que ajuda a evitar filas em postos de saúde e hospitais? Se sim, qual valor seria justo para você?
-
----
-
 ### 🩺 Impacto e Continuidade
 
 - Você acha que esse tipo de app poderia reduzir o tempo de espera e facilitar o acesso aos serviços de saúde? O que mais você esperaria dele?
