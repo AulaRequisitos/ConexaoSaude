@@ -154,6 +154,8 @@ Estamos desenvolvendo um aplicativo para facilitar o acesso aos serviços de sa�
 ### ♿ Acessibilidade
 
 - Você tem dificuldades para ler ou entender textos pequenos ou complexos? Que tipo de recursos de acessibilidade seriam importantes para você? *(Ex: modo alto contraste, aumento de fonte, leitura em voz alta, etc.)*
+- Quais dificuldades enfrenta para marcar, lembrar ou comparecer ás consultas e exames?
+- O que um aplicativo de saúde poderia fazer para ajudar no seu acompanhamento médico?
 
 ---
 
@@ -188,7 +190,9 @@ Estamos desenvolvendo um aplicativo para facilitar o acesso aos serviços de sa�
 
 ### 👵 Público Idoso
 
-- Se você for idoso, o que considera mais importante em um aplicativo para facilitar o seu uso? *(Ex: fontes grandes, textos claros, botões fáceis de clicar, etc.)*
+- O que considera mais importante em um aplicativo para facilitar o seu uso? *(Ex: fontes grandes, textos claros, botões fáceis de clicar, etc.)*
+- O senhor costumar usar o celular para se informar ou marcar consultas de saúde?
+- Quais dificuldades o senhor já teve ao tentar marcar/ir de ultima hora a uma consulta ou exame pelo SUS?
 
 ---
 
