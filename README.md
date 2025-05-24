@@ -88,15 +88,15 @@ link para o acesso completo ao mapa da persona: https://www.canva.com/design/DAG
 
 | Identificador | Descrição    | Prioridade  | Depende de                  |
 |:------:|:----------------------------------------------------:|:------------:|:------------------------:|
-| RF01   | O software deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região | M | RF02, RF09, RF11, RNF02, RF09 |
-| RF02   |  O software deve permitir que os usuários realizem uma consulta rápida para verificar se possuem prioridade no atendimento com base em critérios pré-definidos, como idade, estado de saúde e urgência. | M | RNF03, RF06, RF07, RF09 |
-| RF03   | O software deve localizar o usuário para saber sua trajetória a um melhor destino, isso deve ocorrer após o usuário permitir a que o app acesse a sua localização | M | RNF02, RF07, RF09 |
-| RF04   | O software deve todo mês mostrar ao usuário um evento e nesses evento enviar tasks para o usuário | C | RF12 |
-| RF05   | O software deve priorizar certos pacientes, dependendo da sua situação de risco/saude ou seja hierarquia na fila/ criar uma fila para casos graves | S | RNF03, RF06, RF11, RF12 |
-| RF06   | O usuário deve informar se está sozinho ou não, se consegue chegar ao posto mais acessível ou não, para assim o software entender se requisitar ajuda de transporte para o usuário | C | RNF02, RF08, RF07, RF12 |
-| RF07   | O usuário poderá avaliar o atendimento (nota + comentário). E o software deve conectar/alocar esse comentário a comentários do posto e do médico que usuário refere-se | C | RNF05, RNF06, RF12 |
-| RF08   | O software deve filtrar quais tipos de medicamentos devem ser indicados para o usuário (devido a alguma alergia, ou restrição que ele informou ) | C | RNF03, RF10, RF09 |
-| RF09   | O Sistema deve possibilitar a busca de informações sobre postos de saúde,hospitais entre outras intituições de saúde publica: exibição de uma caixa de texto que servira de entrada do usuario para o sistema; exibe resultados com base em entradas parciais do usuario, em caixas em fileira; exibe informações simplificadas da instituição nas caixas infileiradas | S | RF11, RF07, RNF02 |
+| RF01   | O software deve notificar um alerta para os usuários médicos em caso de superlotação em postos de atendimentos da região (ter uma demanda muito grande para a quantidade de médicos do posto,o próprio médico do posto pode requisitar ajudar o app, para os médicos mais próximos da região), a notificação deve chegar pelo próprio aplicativo. | M | RF02, RF09, RF11, RNF02, RF09 |
+| RF02   |  O software deve permitir que os usuários realizem uma consulta rápida para verificar se possuem prioridade no atendimento com base em critérios pré-definidos, como idade, estado de saúde e urgência. Caso consiga prioridade, o usuário apareça a frente dos outros usuários, não prioritários, na fila | M | RNF03, RF06, RF07, RF09 |
+| RF03   | O software deve localizar o usuário para saber sua trajetória a um melhor destino (mais próximo), isso deve ocorrer após o usuário permitir a que o app acesse a sua localização | M | RNF02, RF07, RF09 |
+| RF04   | O software deve todo mês mostrar ao usuário uma campanha e nessas campanhas enviar tasks para o usuário, campanhas como "mês da dengue", tasks como "Confira se há água parada na sua residencia","Já armou sua telinha para não deixar a dengue entrar?" | C |  |
+| RF05   | O software deve priorizar certos pacientes, dependendo da sua situação de risco/saude ou seja hierarquia na fila | S | RNF03, RF06, RF11 |
+| RF06   | O usuário pode escolher uma opção de "transporte ajuda" e informar se está sozinho ou não, se consegue chegar ao posto mais acessível ou não, para assim o software requisitar ajuda de transporte para o usuário | C | RNF02, RF08, RF07 |
+| RF07   | Após o atendimento e a confirmação da consulta no app, o usuário poderá avaliar o atendimento (nota + comentário). E o software deve adicionar esse comentário aos comentários do posto e do médico que usuário refere-se | C | RNF05, RNF06, RF12 |
+| RF08   | O usuário pode ter a opção de dicas onde o software através de perguntas, sobre a situção de saúde atual do usuário, consiga ajudar o usuário com dicas de vitaminas, recomendações alimentáres, cuidados e caso o usuário estaja em situação de risco o software deve solicitar que ele procure um médico | C | RNF03, RF10, RF09 |
+| RF09   | O Sistema deve possibilitar a busca de informações sobre postos de saúde,hospitais entre outras intituições de saúde publica: exibição de uma caixa de texto que servira de entrada do usuario para o sistema; exibe resultados com base em entradas parciais do usuario, em caixas em fileira; exibe informações simplificadas da instituição nas caixas infileiradas, todas essas informções devem estar armazenadas em um banco de dados | S | RF11, RF07, RNF02 |
 | RF10   | O usuário deve informar/selecionar qual tipo de atendimento procura (Pediatrico; Pronto-Atendimento; Hospital geral;) | C | RF06, RF07, RF09, RF12 |
 | RF11 | O Sistema deve enviar uma notificação de onde o usuário esta na fila e exibir um aviso quando o usuário for o proximo | S | RNF16 |
 
@@ -104,19 +104,19 @@ link para o acesso completo ao mapa da persona: https://www.canva.com/design/DAG
 
 | Identificador | Descrição    | Prioridade  | Depende de                  |
 |:------:|:----------------------------------------------------:|:------------:|:------------------------:|
-| RNF01   | O software deve garantir a segurança dos dados do usuário e médico | M | RF12 |
-| RNF02   | O software deve permitir acesso á localização do usuário apenas com consentimento explícito | M | RF03, RF06, RF09 |
-| RNF03   | O software deve validar dados de saúde do usuário, garantindo recomendações seguras | C | RF02, RF05, RF08, RF9 |
+| RNF01   | O software deve garantir a segurança dos dados do usuário e médico com criptografia | M | |
+| RNF02   | O software deve permitir acesso á localização do usuário apenas com consentimento explícito, o usuário a abrir o app deve escolher a opção "sim aceito saber minha localização" | M | RF03, RF06, RF09 |
+| RNF03   | O software deve validar dados de saúde do usuário, com um questionário que deve aparecer ao usuário escolher a opção "ajuda/dicas", garantindo recomendações seguras | C | RF02, RF05, RF08, RF9 |
 | RNF04   | O software deve oferecer interface intuitiva e acessível para os usuários | S | RF07, RF09, RF10 |
-| RNF05   | O software deve garantir que os comentários e avaliações dos usuários sejam armazenados corretamente e protegidos| S | RF07 |
-| RNF06   | O software deve permitir que médicos visualizem feedback dos usuários sobre o atendimento | C | RF07, RF09 |
+| RNF05   | O software deve garantir que os comentários e avaliações dos usuários sejam armazenados no banco de dados corretamente e protegidos (criptografia)| S | RF07 |
+| RNF06   | O software deve permitir que médicos visualizem feedback dos usuários sobre o atendimento, esses feedbacks devem aparecer em local de comentáros no seu perfil. | C | RF07, RF09 |
 | RNF07 | O Sistema deve cachear consultas frequentes utilizando Redis para reduzir o tempo de acesso ao banco de dados | S |
 | RNF08 | O Sistema deve utilizar o banco de dados para armazenar informações | M |
 | RNF09 | O Tamanho total do sistema não deve ser maior que 100 mBytes | S |
 | RNF10 | O Sistema deve suportar inicialmente pelo menos 500.000 usuarios concorrentemente | M |
 | RNF11 | O Sistema deve estar disponivel 90% das vezes | M |
-| RNF12 | O Sistema deve utilizar um Framework para criar a Interface Gráfica do sistema  | C | RNF16 |
-| RNF13 | O Sistema deve utilizar uma linguagem orientada a objetos para a base do código do sistema | S |
+| RNF12 | O Sistema deve utilizar um Framework para criar a Interface Gráfica do sistema (Abstract Window Toolkit)  | C |  |
+| RNF13 | O Sistema deve utilizar uma linguagem orientada a objetos para a base do código do sistema (Java) | S |
 
   ***2.3. Perguntas***
 
