@@ -228,7 +228,204 @@ Estamos desenvolvendo um aplicativo para facilitar o acesso aos serviços de sa�
 
   ***2.5. Histórias do Usuário***
 
-*<Imagem, arquivo (PDF), link com as Histórias de Usuário.>*
+# RF01 - Notificações de Superlotação
+
+## Descrição
+Permitir que médicos recebam notificações sobre superlotação em postos de saúde da sua região, para facilitar o apoio rápido e melhorar o atendimento aos pacientes.
+
+## História de Usuário
+> **Como** médico usuário do aplicativo  
+> **Quero** receber notificações de superlotação em postos da minha região  
+> **Para** me disponibilizar para ajudar rapidamente e melhorar o atendimento dos pacientes
+
+## Critérios de Aceitação
+- O sistema detecta automaticamente superlotação com base em critérios definidos (número de pacientes/médicos).
+- Médicos podem solicitar ajuda manualmente pelo aplicativo.
+- Notificações são enviadas via push para médicos próximos.
+- Notificações devem conter:
+  - Nome do posto
+  - Urgência
+  - Número estimado de pacientes
+ 
+ ---
+
+ # RF02 - Verificação de Prioridade no Atendimento
+
+## Descrição
+Permitir que usuários verifiquem rapidamente se possuem prioridade no atendimento, garantindo que sejam atendidos conforme sua necessidade médica ou condição de risco.
+
+## História de Usuário
+> **Como** usuário do aplicativo  
+> **Quero** verificar rapidamente se tenho prioridade no atendimento  
+> **Para** ser atendido de acordo com minha necessidade médica ou condição de risco
+
+## Critérios de Aceitação
+- O usuário informa dados como idade, sintomas e condição atual.
+- O sistema classifica automaticamente se há prioridade.
+- Usuários prioritários são destacados e movidos para o início da fila.
+- A decisão é exibida de forma clara para o usuário.
+
+---
+
+# RF03 - Acesso à Localização e Direcionamento ao Posto de Saúde
+
+## Descrição
+Permitir que o usuário permita o acesso à sua localização para ser guiado até o posto de saúde mais próximo e acessível.
+
+## História de Usuário
+> **Como** usuário do aplicativo  
+> **Quero** permitir o acesso à minha localização  
+> **Para** ser guiado até o posto de saúde mais próximo e acessível
+
+## Critérios de Aceitação
+- O app solicita permissão de localização.
+- O app identifica o posto de saúde mais próximo.
+- A rota é traçada e exibida em tempo real.
+- Caso haja mais de uma opção, o usuário pode escolher.
+
+---
+
+# RF04 - Campanhas Mensais com Tarefas de Saúde
+
+## Descrição
+Enviar campanhas mensais com tarefas de saúde para manter o usuário informado e contribuir com a prevenção de doenças.
+
+## História de Usuário
+> **Como** usuário do aplicativo  
+> **Quero** receber campanhas mensais com tarefas de saúde  
+> **Para** me manter informado e contribuir com a prevenção de doenças
+
+## Critérios de Aceitação
+- O sistema exibe uma nova campanha por mês.
+- A campanha inclui tarefas (ex: verificar água parada).
+- O usuário pode marcar tarefas como concluídas.
+- As campanhas são temáticas e educativas.
+
+---
+
+# RF05 - Prioridade na Fila para Pacientes em Situação de Risco
+
+## Descrição
+Garantir que pacientes em situação de risco sejam priorizados na fila de atendimento para um atendimento mais rápido e adequado.
+
+## História de Usuário
+> **Como** paciente com situação de risco  
+> **Quero** ser priorizado na fila de atendimento  
+> **Para** garantir um atendimento mais rápido e adequado à minha saúde
+
+## Critérios de Aceitação
+- O sistema recebe dados médicos do paciente.
+- A fila é reordenada conforme critérios médicos.
+- A prioridade é exibida ao paciente e ao médico.
+- O sistema atualiza automaticamente a posição.
+
+---
+
+# RF06 - Solicitação de Transporte para Usuários com Dificuldades de Locomoção
+
+## Descrição
+Permitir que usuários com dificuldades de locomoção solicitem ajuda de transporte até o posto de saúde para garantir o atendimento.
+
+## História de Usuário
+> **Como** usuário com dificuldades de locomoção  
+> **Quero** solicitar ajuda de transporte até o posto de saúde  
+> **Para** garantir que conseguirei atendimento mesmo sem condições de me deslocar sozinho
+
+## Critérios de Aceitação
+- O usuário responde perguntas sobre sua situação.
+- O app detecta a necessidade de transporte.
+- Uma solicitação é enviada a parceiros ou voluntários.
+- O usuário recebe confirmação e estimativa de tempo.
+
+---
+
+# RF07 - Avaliação do Atendimento Recebido
+
+## Descrição
+Permitir que usuários avaliem o atendimento recebido para ajudar outros pacientes e melhorar a qualidade dos serviços.
+
+## História de Usuário
+> **Como** usuário do aplicativo  
+> **Quero** avaliar o atendimento recebido  
+> **Para** ajudar outros pacientes e melhorar a qualidade dos serviços
+
+## Critérios de Aceitação
+- O app exibe formulário de avaliação após a consulta.
+- O usuário pode dar uma nota e escrever um comentário.
+- As avaliações ficam visíveis no perfil do médico/posto.
+- O usuário pode editar ou excluir a avaliação.
+
+---
+
+# RF08 - Dicas Personalizadas e Alertas de Saúde
+
+## Descrição
+Fornecer dicas personalizadas e alertas para que o usuário cuide melhor da saúde e saiba quando procurar um médico.
+
+## História de Usuário
+> **Como** usuário preocupado com minha saúde  
+> **Quero** receber dicas personalizadas e alertas  
+> **Para** cuidar melhor da minha saúde e saber quando procurar um médico
+
+## Critérios de Aceitação
+- O app faz perguntas rápidas sobre sintomas e hábitos.
+- Gera recomendações de saúde e bem-estar.
+- Alerta o usuário caso haja risco.
+- Recomenda procurar atendimento, se necessário.
+
+---
+
+# RF09 - Busca de Informações sobre Instituições de Saúde
+
+## Descrição
+Permitir que usuários busquem informações sobre instituições de saúde para encontrar o local mais adequado e entender os serviços disponíveis.
+
+## História de Usuário
+> **Como** usuário do aplicativo  
+> **Quero** buscar informações sobre instituições de saúde  
+> **Para** encontrar o local mais adequado e entender os serviços disponíveis
+
+## Critérios de Aceitação
+- Caixa de busca com autocompletar.
+- Resultados exibidos em cards com dados básicos.
+- Informações puxadas de banco de dados.
+- Exibição clara e organizada.
+
+---
+
+# RF10 - Seleção do Tipo de Atendimento
+
+## Descrição
+Permitir que o usuário selecione o tipo de atendimento desejado para ser direcionado ao serviço correto e receber atendimento adequado.
+
+## História de Usuário
+> **Como** usuário do aplicativo  
+> **Quero** selecionar o tipo de atendimento que procuro  
+> **Para** ser direcionado ao serviço correto e receber o atendimento adequado
+
+## Critérios de Aceitação
+- Opções de tipos de atendimento disponíveis na interface.
+- O usuário deve selecionar antes de prosseguir.
+- A seleção influencia a fila e localização.
+- Validação da escolha antes do envio.
+
+---
+
+# RF11 - Notificações da Posição na Fila
+
+## Descrição
+Enviar notificações automáticas para que o usuário saiba exatamente quando será atendido e possa se preparar.
+
+## História de Usuário
+> **Como** usuário do aplicativo  
+> **Quero** receber notificações da minha posição na fila  
+> **Para** saber exatamente quando será meu atendimento e me preparar
+
+## Critérios de Aceitação
+- Notificações enviadas automaticamente conforme posição muda.
+- Aviso claro quando o usuário estiver próximo.
+- Histórico das notificações disponível.
+- Notificações funcionam mesmo com o app em segundo plano.
 
   ***2.6. Diagramas de Caso de Uso e Especificações***
 
