@@ -224,7 +224,9 @@ Estamos desenvolvendo um aplicativo para facilitar o acesso aos serviços de sa�
 
   ***2.4. Entrevista***
 
-*<Arquivo com as respostas do indivíduo entrevistado e link do drive com upload da gravação.>*
+[Entrevista(parte1).docx](https://github.com/user-attachments/files/20447297/Entrevista.parte1.docx)
+[Entrevista(parte2).docx](https://github.com/user-attachments/files/20447299/Entrevista.parte2.docx)
+
 
   ***2.5. Histórias do Usuário***
 
