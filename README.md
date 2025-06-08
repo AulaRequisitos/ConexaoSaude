@@ -431,11 +431,13 @@ Enviar notificações automáticas para que o usuário saiba exatamente quando s
 
   ***2.6. Diagramas de Caso de Uso e Especificações***
 
-*<Imagem, arquivo (PDF), link com Diagrama de Caso de Uso.>*
+![Diagrama_CasodeUso](https://github.com/user-attachments/assets/584208a4-c21a-4f3c-a63b-2d0531ff7d3e)
+
 
   ***2.7. Diagramas de Atividades***
+![Buscador](https://github.com/user-attachments/assets/26921b1a-3d40-4e2f-82cf-3caed8b24db5)
+![Efetuar login](https://github.com/user-attachments/assets/f28a61c4-7ecf-4b7a-a261-853eb20849f8)
 
-*<Imagem, arquivo (PDF), link com Diagrama de Atividades.>*
 
   ***2.8. Matrizes de Rastreabilidade***
 
