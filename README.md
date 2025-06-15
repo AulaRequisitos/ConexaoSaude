@@ -445,10 +445,19 @@ Enviar notificações automáticas para que o usuário saiba exatamente quando s
 
   ***2.9. Protótipos***
 
-![image](https://github.com/user-attachments/assets/501395a2-6fc1-4ba1-a063-b269c9968157)
+![image](https://github.com/user-attachments/assets/e68b9b59-4439-4ee8-852c-6d3e7a75df6c)
 
-Link para o arquivo no NinjaMock do Protótipo: https://ninjamock.com/Designer/Workplace/204713961/Page1
+![image](https://github.com/user-attachments/assets/3db3db8b-fdc9-425f-b7d4-057342feae92)
 
+![image](https://github.com/user-attachments/assets/f1e1ba39-c689-4912-a33c-1f2519ed29c4)
+
+Link para os arquivo no NinjaMock dos Protótipos:
+ 
+Protótipo Tela Inicial: https://ninjamock.com/s/RJ927Lx
+
+Protótipo Seleção de Posto: https://ninjamock.com/s/TJ927Lx
+
+Protótipo Seleção de Transporte: https://ninjamock.com/s/DJ927Lx
 
 *<Esta seção é destinada à descrição das referências utilizadas pelo documento, como por exemplo, URLs e livros. Ver exemplo a seguir:>*
 
