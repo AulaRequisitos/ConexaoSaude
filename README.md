@@ -441,7 +441,20 @@ Enviar notificações automáticas para que o usuário saiba exatamente quando s
 
   ***2.8. Matrizes de Rastreabilidade***
 
-*<Imagem, arquivo (PDF), link com Matriz de Rastreabilidade.>*
+| Requisitos / Casos de Uso    | UC01 (Efetuar Login) | UC02 (Efetuar Cadastro) | UC03 (Dicas de Saúde) | UC04 (Sobre) | UC05 (Consultar Agendamento) | UC06 (Buscar Instituições) | UC07 (Agendar Horário) | UC08 (Solicitar Transporte) | UC09 (Cancelar Agendamento) |
+|:----------------------------:|:--------------------:|:-----------------------:|:---------------------:|:------------:|:----------------------------:|:--------------------------:|:----------------------:|:----------------------------:|:----------------------------:|
+| RF01                       |                      |                         |                       |              | X                            |                            |                        |                              |                              |
+| RF02                       |                      |                         |                       |              | X                            |                            | X                      |                              |                              |
+| RF03                       |                      |                         |                       |              |                              |                            |                        | X                            |                              |
+| RF04                       |                      |                         | X                     |              |                              |                            |                        |                              |                              |
+| RF05                       |                      |                         |                       |              | X                            |                            |                        |                              |                              |
+| RF06                       |                      |                         |                       |              |                              |                            |                        | X                            |                              |
+| RF07                       |                      |                         |                       |              | X                            |                            |                        |                              |                              |
+| RF08                       |                      |                         | X                     |              |                              |                            |                        |                              |                              |
+| RF09                       |                      |                         |                       |              |                              | X                          |                        |                              |                              |
+| RF10                       |                      |                         |                       |              |                              |                            | X                      |                              |                              |
+| RF11                       |                      |                         |                       |              | X                            |                            |                        |                              |                              |
+
 
   ***2.9. Protótipos***
 
